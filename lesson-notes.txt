@@ -1,0 +1,29 @@
+Codecademy HTML & CSS Lesson Notes
+
+HyperText = text with links in it
+
+Markup Language = programming language used to make text do more than just sit
+  on a page.
+  --It can turn text into:
+    -images
+    -links
+    -tables
+    -lists
+
+CSS = Cascading Style Sheets
+  Skin and makeup that covers the bones of HTML.
+
+Things inside <> are tags
+
+There are always two parts to an HTML file:
+  -Head
+    --Info about HTML file
+      +Title = what is seen in browser title bar
+  -Body
+    --Text, Images, and Links
+
+There are 6 heading tags: h1-h6
+
+Give tags more instructions by including attributes in the opening tag. An
+attribute is simply a characteristic or some description for the content in the
+element. You saw this with src in <img> and href in <a>.
