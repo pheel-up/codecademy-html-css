@@ -27,3 +27,18 @@ There are 6 heading tags: h1-h6
 Give tags more instructions by including attributes in the opening tag. An
 attribute is simply a characteristic or some description for the content in the
 element. You saw this with src in <img> and href in <a>.
+
+Fonts style: <p style = "font-size:14px; color: orange; font-family: Bodoni">
+  --can be used for paragraphs, headings, and links
+  a. font-size: 14px
+  b. color: orange
+  c. font-family: Bodoni
+
+<h3 style="text-align:center"><strong>Favorite <em>Football Teams</em></strong>
+  </h3>
+
+  <ol style="background-color: yellow">
+    <li style="text-align:left">The Hawthorn Football Club</li>
+    <li style="text-align:center">San Franscisco 49ers</li>
+    <li style="text-align:right">Barcelona FC</li>
+  </ol>
