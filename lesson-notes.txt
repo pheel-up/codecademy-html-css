@@ -42,3 +42,65 @@ Fonts style: <p style = "font-size:14px; color: orange; font-family: Bodoni">
     <li style="text-align:center">San Franscisco 49ers</li>
     <li style="text-align:right">Barcelona FC</li>
   </ol>
+
+Tables: The table header (<thead>) contains the <th></th> tags and goes after
+  the opening <table> tag but before the first table row.
+  <thead>
+    <tr>
+        <th style="color:red" colspan="2"><em>Famous Monsters by Birth Year
+        </em></th>
+    </tr>
+    <tr>
+      <th>
+        Famous Monster
+      </th>
+      <th>
+        Birth Year
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <table border="1px">
+      <tr>
+          <td>King Kong</td>
+          <td>1933</td>
+      </tr>
+
+      <tr>
+          <td>Dracula</td>
+          <td>1897</td>
+      </tr>
+
+      <tr>
+          <td>Bride of Frankenstein</td>
+          <td>1935</td>
+      </tr>
+    </table>
+  </tbody>
+
+<div></div> tag = Division-->Allows page to be divided into containers so that
+  individual parts can be styled individually
+
+  <div style="width:50px; height:50px; background-color:red"></div>
+  <div style="width:50px; height:50px; background-color:blue"></div>
+  <div style="width:50px; height:50px; background-color:green"></div>
+  <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/428px-DOM-model.svg.png">
+    <div style="width:50px; height:50px; background-color:yellow"></div></a>
+
+  <p>This text is black, except for the word <span style="color:red">red
+    </span>!</p>
+
+  <p>My favorite font is <span style="font-family:Impact">Impact</span>!</p>
+
+CSS (which stands for Cascading Style Sheets) is a language used to describe the
+  appearance and formatting of your HTML.
+
+  -There are two main reasons for separating your form/formatting (CSS) from
+    your functional content/structure (HTML):
+
+    --You can apply the same formatting to several HTML elements without
+      rewriting code (e.g. style="color:red":) over and over
+    --You can apply similar appearance and formatting to several HTML pages from
+      a single CSS file
